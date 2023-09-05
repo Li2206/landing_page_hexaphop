@@ -1,0 +1,495 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+
+  padding-left: 5vw;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#navelement1 {
+  color: gray;
+  text-decoration: none;
+}
+
+#navelement2 {
+  color: black;
+  text-decoration: none;
+}
+
+#barre {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+#chevron {
+  width: 10px;
+}
+
+hr {
+
+  width: 100%;
+  border: 0.2px dashed gray;
+}
+
+.banners {
+  margin: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1%;
+
+}
+
+#leftbanner {
+  width: 48%;
+  height: 100%;
+}
+
+#content1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+
+}
+
+#content2 {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#content3 {
+  width: 98%;
+  display: flex;
+  flex-direction: row;
+}
+
+.bannerleft {
+  width: 100%;
+  height: 100%;
+
+}
+
+#banerright1,
+#banerright2,
+#banerright3,
+#banerright4 {
+  width: 50%;
+}
+
+.banerright1,
+.banerright2,
+.banerright3,
+.banerright4 {
+  width: 95%;
+}
+
+.cl1 {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  z-index: 10px;
+  color: white;
+  font-size: 48px;
+}
+
+.cl2 {
+  position: absolute;
+  left: 5%;
+  z-index: 100px;
+  color: white;
+  top: 65%;
+
+}
+
+.cl3 {
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  left: 5%;
+  top: 70%;
+  z-index: 50px;
+  color: white;
+  padding: 5px;
+  border-radius: 1px;
+}
+
+.cl4 {
+  position: absolute;
+  left: 60%;
+  z-index: 100px;
+  color: white;
+  top: 30%;
+}
+
+.cl5 {
+  position: absolute;
+  left: 55%;
+  z-index: 100px;
+  color: white;
+  top: 38%;
+}
+
+.cl6 {
+  position: absolute;
+  left: 85%;
+  z-index: 50px;
+  color: white;
+  top: 30%
+}
+
+.cl7 {
+  position: absolute;
+  left: 81%;
+  z-index: 50px;
+  color: white;
+  top: 38%;
+}
+
+.cl8 {
+  position: absolute;
+  left: 61%;
+  z-index: 50px;
+  color: white;
+  top: 70%;
+}
+
+.cl9 {
+  position: absolute;
+  left: 58%;
+  z-index: 50px;
+  color: white;
+  top: 78%;
+}
+
+.cl10 {
+  position: absolute;
+  left: 85%;
+  z-index: 50px;
+  color: white;
+  top: 70%;
+}
+
+.cl11 {
+  position: absolute;
+  left: 83%;
+  z-index: 50px;
+  color: white;
+  top: 78%;
+}
+
+#section1,
+#section2,
+#section3 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+
+}
+
+.p1,
+.p3,
+.p5 {
+  width: 100px;
+  height: 350px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.p2,
+.p4,
+.p6 {
+  order: 1;
+  width: 100px;
+  height: 350px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#men1,
+#women1,
+#kid1,
+#men2,
+#women2,
+#kid2,
+#men3,
+#women3,
+#kid3 {
+  width: 350px;
+  height: 400px;
+}
+
+#sect1,
+#sect2,
+#sect3,
+#secti1,
+#secti2,
+#secti3,
+#sectio1,
+#sectio2,
+#sectio3 {
+  height: 80%;
+  width: 350px;
+}
+
+.etoile {
+  width: 10px
+}
+
+.astuce {
+  display: flex;
+  flex-direction: column;
+  column-gap: 2px;
+}
+
+.truc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.support {
+  text-decoration: none;
+}
+
+.Discover {
+  border: 1px solid gray;
+  padding: 5px;
+  text-decoration: none;
+  color: gray;
+  padding: 5px;
+}
+
+.prev,
+.prev1,
+.prev3,
+.next,
+.next2,
+.next4 {
+  width: 40px;
+  border: 1px solid grey;
+}
+
+p {
+  font-size: smaller;
+  color: gray;
+}
+
+span {
+  font-size: 14px;
+  font-weight: bolder;
+  color: black;
+}
+
+.SocialMedia {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+#media {
+  width: 200px;
+}
+
+.moove,
+#moove {
+  padding: 0px 125px;
+  margin: 0px;
+}
+
+.moove {
+  padding-bottom: 30px;
+}
+
+.subscribing {
+  height: 430px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+form {
+  display: flex;
+  gap: 15px;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+  padding: 5px;
+}
+
+#send {
+  width: 30px;
+  height: 20px;
+}
+
+.contenu {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 40%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+#pos1 {
+  display: flex;
+  flex-direction: column;
+}
+
+#pos2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.Exploreproduct {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+#contenugauche {
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+#contenudroit {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.div1,
+.div2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.div1 {
+  gap: 8px;
+}
+
+h4 {
+  font-size: 26px;
+}
+
+.explorer1 {
+  width: 250px;
+  height: 250px;
+  color: black;
+  background-color: rgb(226, 223, 218);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.explorer2 {
+  color: black;
+  width: 250px;
+  height: 250px;
+  background-color: rgb(226, 223, 218);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#collection,
+#collection1 {
+  color: gray;
+  font-size: 10px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.arrange {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.copyright,
+.copyrigthing {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+#fxxt {
+  text-decoration: none;
+  color: grey;
+  font-size: smaller;
+}
+
+.templateMo {
+  color: rgb(65, 216, 216);
+  font-size: 8px;
+}
+
+h3 {
+  color: rgba(214, 211, 211, 0.845);
+}
+
+.line {
+  padding: 0px 200px 0px 200px;
+}
+
+#liner {
+  border: 1px solid grey;
+  text-decoration: line-through;
+}
+
+#icone {
+  height: 20px;
+  width: 20px;
+  filter: invert(74%) sepia(46%) saturate(448%) hue-rotate(118deg) brightness(98%) contrast(90%);
+}
+
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(34, 29, 29);
+}
